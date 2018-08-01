@@ -35,7 +35,7 @@ updateLineChart(selectedCollege);
 
 BuildDropdown();
 
-window.location.reload(true);
+
 
 
 
@@ -122,7 +122,7 @@ function buildLineChart(Percentile, ID) {
                 x: 0,
                 y: 1
               },
-            title: Percentile,
+            
              yaxis: {
                title: "amount"
              },
